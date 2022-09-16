@@ -1,0 +1,184 @@
+body {
+    margin: 0;
+    font-family: 'Fira Code', monospace;
+    text-align: center;
+    font-size: 1.2em;
+}
+
+h1 {
+    font-family: 'Handlee', cursive;
+    color: #6e3b57;
+    font-size: 3.3em;
+}
+
+h2 {
+    font-family: 'Klee One', cursive;
+    color: #896f94;
+    font-size: 1.7em;
+}
+
+h3 {
+   color: #84a377;
+}
+
+p {
+    padding: 10px;
+}
+
+ul {
+    list-style-type: none;
+    text-align: left;
+}
+
+dt {
+    text-align: left;
+}
+
+dd {
+    text-align: left;
+}
+
+hr {
+    border-top: solid #e0dee0 5px;
+    width: 45%;
+}
+
+hr.hr1 {
+    border-top: dotted #e0dee0 8px;
+    width: 45%;
+    border-bottom: none;
+    margin-bottom: 50px;
+}
+
+hr.hr2 {
+    margin: 0;
+    border: solid #e0dee0 10px;
+    width: 100%;
+}
+
+a:link {
+    color: purple;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #ba8cb5;
+}
+
+a:hover {
+    color: #84a377;
+}
+
+a:active {
+    color: #e9cef5;
+}
+
+.top {
+    position: relative;
+    background-color: #e9cef5;
+    padding: 100px 0 0 0;
+}
+
+.middle {
+    margin: 100px 80px;
+}
+
+.bottom {
+    color: lavenderblush;
+    background-color: #896f94;
+    padding: 10px;
+    margin: 0px;
+}
+
+.contact-button {
+    background-color: #e0dee0; 
+    display: inline-block;
+    padding: 10px 15px;
+    border: 2px solid gray;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 8px;
+}
+
+.flower1 {
+    width: 100px;
+    position: absolute;
+    top: 70px;
+    right: 70px;
+}
+
+.flower2 {
+    width: 100px;
+    position: absolute;
+    top: 70px;
+    left: 70px;
+}
+
+.floral-border {
+    width: 100%;
+}
+
+.self-image {
+    padding: 2px; 
+    width: 150px;
+    border: 3px solid #896f94;
+    border-radius: 100%;
+}
+
+.coding-img {
+    width: 45%;
+    margin-left: 50px;
+}
+
+.experience-img {
+    width: 50%;
+}
+
+.skills-img {
+    width: 50%;
+    margin-top: 30px;
+}
+
+.row {
+    width: 50%;
+    margin: 50px auto 80px auto;
+}
+
+.row2 {
+    width: 50%;
+    margin: 25px 0 25px 0;
+}
+
+.column {
+    display: inline-block;
+}
+
+.left {
+    float: left;
+    width: 50%;
+}
+
+.right {
+    width: 50%;
+}
+
+.left2 {
+    float: left;
+    width: 120%;
+}
+
+.right2 {
+    width: 0%;
+}
+
+.left3 {
+    float: left;
+    width: 30%;
+    text-align: right;
+}
+
+.right3 {
+    width: 70%;
+    margin: 5px 0;
+    text-align: left;
+}
